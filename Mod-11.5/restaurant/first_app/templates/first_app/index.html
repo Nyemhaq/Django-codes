@@ -1,0 +1,21 @@
+{% extends 'base.html' %} {% load static %} {% block title %}index{% endblock %}
+{% block content %}
+
+<h1 class="heading">Welcome to the Thynk Cafe</h1>
+
+<div class="main">
+  {% for i in data %}
+  <div class="card1">
+    <img src="{{i.strMealThumb}}" class="card-img-top" alt="Meal-1" />
+    <div class="card-body">
+      <h5 class="card-title">{{i.strMeal}}</h5>
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </p>
+    </div>
+  </div>
+  {%endfor%}
+</div>
+
+{% endblock %}
