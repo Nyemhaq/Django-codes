@@ -1,0 +1,84 @@
+.founder{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 5%;
+}
+.founder-details
+{
+    text-align: justify;
+    padding-right: 8%;
+    padding-left: 5%;
+}
+
+.founder-img img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    padding-right: 15%;
+}
+.chef{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.chef-img img
+{
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+    margin-left: 15%;
+}
+.chef-details {
+text-align: justify;
+padding-right: 5%;
+padding-left: 8%;
+}
+.mem-1
+{
+    padding-left: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mem-2,.mem-3,.ser-1,.ser-2,.ser-3,.ser-4
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mem-1 img, .mem-2 img,.mem-3 img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+.card-text{
+    align-items: center;
+    justify-content: center;
+}
+
+.other-mem
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.other-ser
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.ser-3 img{
+ height: 190px;
+}
+.ser-1 img,.ser-2 img,.ser-3 img,.ser-4 img
+{
+    border-radius: 20px;
+}

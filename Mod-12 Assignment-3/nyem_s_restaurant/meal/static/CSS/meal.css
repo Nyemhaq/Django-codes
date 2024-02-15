@@ -1,0 +1,8 @@
+.card
+{
+  margin-top: 20px;
+}
+.card-container
+{
+  display: flex;
+}

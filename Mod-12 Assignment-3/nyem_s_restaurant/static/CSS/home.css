@@ -1,0 +1,57 @@
+.img-container
+{
+   position: absolute;
+   max-width: 100%;
+   overflow: hidden;
+}
+.text-container
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 45%;
+    width: 50%;
+}
+.text-container h1
+{
+    color: white;
+}
+.text-container p
+{
+    color: white;
+    text-align: justify;
+}
+#w
+{
+    font-size: 80px;
+}
+.img1
+{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.icon .img2
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.icon .img3
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.icon .img4
+{
+    width: 25px;
+    height: 25px;
+    gap: 20px;
+}
+.icon
+{
+    margin-top: 5%;
+    margin-left: 72%;
+}
+
+

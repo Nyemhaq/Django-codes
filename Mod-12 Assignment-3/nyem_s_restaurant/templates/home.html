@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% load static %} 
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+ <div class="banner">
+    <div class="img-container">
+        <img src="{% static 'Image/baner2.jpg' %}" alt="">
+    </div>
+    <div class="text-container">
+        <h1 id="w">Welcome</h1>
+        <h1>to taste the best ever food</h1>
+        <br>
+        <br>
+        <p>Welcome to our restaurant, where every dish tells a story and every meal is a culinary adventure. Nestled in the heart of Cumilla, our restaurant offers a delightful fusion of flavors, ambiance, and hospitality.Step through our doors and immerse yourself in an atmosphere where the aroma of freshly prepared cuisine tantalizes your senses and beckons you to indulge. Our restaurant prides itself on sourcing the finest ingredients, ensuring each dish is a masterpiece crafted with passion and expertise.</p>
+        <button class="btn btn-outline-light" type="submit">Explore Now</button>
+        <div class="icon">
+            <img class="img1" src="{% static 'Image/fb.png' %}" alt="">
+            <img class="img2" src="{% static 'Image/twitter.png' %}" alt="">
+            <img class="img3" src="{% static 'Image/insta.png' %}" alt="">
+            <img class="img4" src="{% static 'Image/tele.png' %}" alt="">
+        </div>
+    </div>
+ </div>
+
+{% endblock %}

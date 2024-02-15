@@ -1,0 +1,151 @@
+{% extends 'base.html' %} {% load static %} {% block title %}About
+US{%endblock%} {% block css %}<link
+  rel="stylesheet"
+  href="{% static 'CSS/about.css' %}"
+/>{% endblock %} {% block content %}
+<div class="content">
+  <div class="founder">
+    <div class="founder-details">
+      <p>
+        John Carry, the esteemed founder of our organization, embodies the
+        epitome of visionary leadership and unwavering dedication. With a
+        profound commitment to innovation and a relentless pursuit of
+        excellence, John has steered our company towards unparalleled success in
+        the industry. His visionary approach, coupled with a deep understanding
+        of market dynamics, has paved the way for groundbreaking initiatives and
+        transformative strategies that have shaped our company's trajectory.
+        Beyond his strategic acumen, John's unwavering integrity, compassion,
+        and ability to inspire those around him have fostered a culture of
+        collaboration, empowerment, and inclusivity within our organization. His
+        remarkable journey from humble beginnings to becoming a revered leader
+        serves as a testament to the power of perseverance, resilience, and
+        unwavering determination.
+      </p>
+      <h3>John Carry</h3>
+      <h6>Founder & CEO</h6>
+    </div>
+    <div class="founder-img">
+      <img src="{% static 'Image/founder.jpg' %}" alt="" />
+    </div>
+  </div>
+  <div class="chef">
+    <div class="chef-img">
+      <img src="{% static 'Image/chef.jpg' %}" alt="" />
+    </div>
+    <div class="chef-details">
+      <p>
+        Alex Smith is our esteemed Chief Chef, renowned for his culinary
+        expertise, creativity, and passion for gastronomy.With over 15 years of
+        experience in the culinary industry, Alex has honed his skills in some
+        of the world's finest kitchens. He has trained under renowned chefs and
+        worked in Michelin-starred restaurants, mastering a diverse range of
+        cuisines and cooking techniques. Alex believes in celebrating the
+        artistry of food while respecting its origins and ingredients. His
+        culinary philosophy emphasizes seasonality, sustainability, and a
+        commitment to using locally-sourced, organic produce whenever possible.
+      </p>
+      <h3>Alex Smith</h3>
+      <h6>Chief Chef</h6>
+    </div>
+  </div>
+  <h2 style="padding-left: 30%; margin-bottom: 40px; color: darkolivegreen">
+    Explore more members of our restaurant
+  </h2>
+  <div class="other-mem">
+    <div class="mem-1" style="width: 18rem">
+      <img
+        src="{% static 'Image/chef2.jpg' %}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-text">
+        <br />
+        <h4>Serah Knight</h4>
+        <h6>Assistant Chef</h6>
+        <a href="#" class="btn btn-secondary">learn more</a>
+      </div>
+    </div>
+    <div class="mem-2" style="width: 18rem">
+      <img
+        src="{% static 'Image/chef3.jpg' %}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-text">
+        <br />
+        <h4>Tom Luics</h4>
+        <h6>Assistant Chef</h6>
+        <a href="#" class="btn btn-secondary">learn more</a>
+      </div>
+    </div>
+    <div class="mem-3" style="width: 18rem">
+      <img
+        src="{% static 'Image/chef4.jpg' %}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-text">
+        <br />
+        <h4>Andrew Lyon</h4>
+        <h6>Assistant Chef</h6>
+        <a href="#" class="btn btn-secondary">learn more</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="other-ser">
+    <div class="ser-1" style="width: 18rem">
+      <img
+        src="{% static 'Image/server.jpg' %}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-text">
+        <br />
+        <h4>Hardy Rock</h4>
+        <h6>Employee</h6>
+        <a href="#" class="btn btn-secondary">learn more</a>
+      </div>
+    </div>
+    <div class="ser-2" style="width: 18rem">
+      <img
+        src="{% static 'Image/server2.jpg' %}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-text">
+        <br />
+        <h4>Sandy Sane</h4>
+        <h6>Employee</h6>
+        <a href="#" class="btn btn-secondary">learn more</a>
+      </div>
+    </div>
+    <div class="ser-3" style="width: 18rem">
+      <img
+        src="{% static 'Image/server3.jpg' %}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-text">
+        <br />
+        <h4>Maria Jane</h4>
+        <h6>Employee</h6>
+        <a href="#" class="btn btn-secondary">learn more</a>
+      </div>
+    </div>
+    <div class="ser-3" style="width: 18rem">
+      <img
+        src="{% static 'Image/cashier.jpg' %}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-text">
+        <br />
+        <h4>Stuart Broad</h4>
+        <h6>Employee</h6>
+        <a href="#" class="btn btn-secondary">learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

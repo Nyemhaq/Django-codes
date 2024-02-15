@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% load static %} 
+
+{% block title %}meal{%endblock%}
+
+{% block content %}
+
+<h1>This is meals page</h1>
+
+{% for i in data %}
+<div class="card" style="width: 18rem">
+  <img src="{{i.strCategoryThumb}}" class="card-img-top" alt="..." />
+  <div class="card-body">
+    <h5 class="card-title">{{i.idCategory}}</h5>
+    <h5 class="card-title">{{i.strCategory}}</h5>
+    <p class="card-text">{{i.strCategoryDescription}}</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+{%endfor%} 
+
+{% endblock %}

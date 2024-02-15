@@ -1,0 +1,28 @@
+.nav-img
+{
+    width: 20px;
+    height: 10px;
+}
+.menu
+{
+    margin-left: 20%;
+    
+}
+.menu ul li a{
+    font-size: large;
+}
+a:hover {
+    color: black;
+  }
+button:hover{
+    color: black;
+}
+.nav_a,.btn1{
+    color: white;
+    text-decoration: none;
+}
+ul li
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}
